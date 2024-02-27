@@ -10,7 +10,7 @@ const Header = () => {
         <p className='header-paragraph'>
           Thanks for visiting the site, you will find various projects created
           by Neko Carrera Designs featured here. There is also some fun games to
-          play if you get bored. Do not worry I will npt tell your boss, lol
+          play if you get bored. Do not worry I will not tell your boss, lol
         </p>
       </div>
     </>
