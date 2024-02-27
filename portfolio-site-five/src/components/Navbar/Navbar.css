@@ -1,0 +1,41 @@
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 1, 80);
+    padding: 20px 40px;
+}
+
+.nav-link {
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(200, 200, 200);
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    border-radius: 50%;
+    background: linear-gradient(90deg, green, blue);
+    animation: colorFade 3s infinite;
+  }
+
+  @keyframes colorFade {
+    0% {
+      background: linear-gradient(90deg, green, blue);
+    }
+    50% {
+      background: linear-gradient(90deg, rgb(133, 236, 133), rgb(150, 205, 223));
+    }
+    100% {
+      background: linear-gradient(90deg, green, blue);
+    }
+  }
+
+  .circle-text {
+    text-align: center;
+    color: rgb(233, 233,244);
+  }
