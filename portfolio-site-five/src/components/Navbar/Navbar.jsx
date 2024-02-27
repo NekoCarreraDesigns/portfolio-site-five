@@ -1,20 +1,21 @@
 import "./Navbar.css";
+import {Link} from "react-router-dom"
 import { GiPalmTree } from "react-icons/gi";
 
 const Navbar = () => {
   return (
     <nav className='page-nav'>
-      <a className='nav-link' href='/'>
+      <Link className='nav-link' to='/'>
         Home
-      </a>
+      </Link>
       {"  "}
-      <a className='nav-link' href='/projects'>
+      <Link className='nav-link' to='/projects'>
         Projects
-      </a>
+      </Link>
       {"  "}
-      <a className='nav-link' href='/contact'>
+      <Link className='nav-link' to='/contact'>
         Contact
-      </a>
+      </Link>
       <div className='circle'>
         <p className='circle-text'>
           <GiPalmTree /> Neko Carrera Designs <GiPalmTree />
