@@ -1,0 +1,17 @@
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-div {
+    padding: 10px;
+}
+
+.projects-header, .game-header, .site-header {
+    color: rgb(233, 255, 233);
+    text-align: center;
+}
+
+.projects-paragraph {
+    color: rgb(233, 255, 233);
+}
