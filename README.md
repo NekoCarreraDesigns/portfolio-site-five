@@ -26,7 +26,7 @@
 
   ## Future Developments
 
-  undefined
+  Might change the games and sites created
 
   ## Credits
 
