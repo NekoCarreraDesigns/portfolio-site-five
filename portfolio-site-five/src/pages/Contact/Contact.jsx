@@ -9,7 +9,7 @@ const Contact = () => {
       </p>
       <div className='contact-list'>
         <li>Phone: 303-931-0974</li>
-        <li>Email: denvermaas@gmail.com</li>
+        <li>Email: cbsk.llc@gmail.com</li>
         <li>LinkedIn: www.linkedin.com/in/nekocarrera1978</li>
       </div>
     </>
