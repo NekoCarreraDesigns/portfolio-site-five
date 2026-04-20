@@ -18,7 +18,7 @@ const Navbar = () => {
       </Link>
       <div className='circle'>
         <p className='circle-text'>
-          <GiPalmTree /> Neko Carrera Designs <GiPalmTree />
+          <GiPalmTree /> MaasAI Solutions <GiPalmTree />
         </p>
       </div>
     </nav>
