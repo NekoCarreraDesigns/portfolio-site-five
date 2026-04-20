@@ -5,11 +5,10 @@ const Header = () => {
     <>
       <div className='header-wrapper'>
         <header className='page-header'>
-          Aloha, Welcome to Neko Carrera Designs!
+          Hello, Welcome to MaasAI Solutions!
         </header>
         <p className='header-paragraph'>
-          Thanks for visiting the site, you will find various projects created
-          by Neko Carrera Designs featured here. There is also some fun games to
+          Thanks for visiting the site, you will find AI automation packages featured here. There is also some fun games to
           play if you get bored. Do not worry I will not tell your boss, lol
         </p>
       </div>
