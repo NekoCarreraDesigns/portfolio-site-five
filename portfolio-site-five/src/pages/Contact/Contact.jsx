@@ -5,8 +5,7 @@ const Contact = () => {
     <>
       <h1 className='contact-header'>Contact</h1>
       <p className='contact-paragraph'>
-        My name is Nicholas Maas, Owner and Junior Developer at Neko Carrera
-        Designs. Please feel free to contact me
+        My name is Nicholas Maas, Owner and AI Automation Specialist. Please feel free to contact me
       </p>
       <div className='contact-list'>
         <li>Phone: 303-931-0974</li>
