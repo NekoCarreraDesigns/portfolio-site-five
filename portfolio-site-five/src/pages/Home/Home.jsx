@@ -1,17 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 import "./Home.css";
+import Services from "../../components/Services/Services.jsx";
+import About from "../../components/About/About.jsx"
 import { NAV_LINKS, STATS, WIDE_STAT, TICKER_ITEMS } from "./HomeData.js";
 
 export default function Hero() {
   const [visible, setVisible] = useState(false);
   const rootRef = useRef(null);
-
   useEffect(() => {
     const t = setTimeout(() => setVisible(true), 80);
     return () => clearTimeout(t);
   }, []);
 
   return (
+    <>
     <div className="hero-root" ref={rootRef}>
       <div className="hero-grid" aria-hidden="true" />
       <div className="hero-glow" aria-hidden="true" />
@@ -104,7 +106,11 @@ export default function Hero() {
             <span className="ticker-text">{item}</span>
           </div>
         ))}
+        
       </div>
     </div>
+    <Services/>
+    <About/>
+    </>
   );
 }
