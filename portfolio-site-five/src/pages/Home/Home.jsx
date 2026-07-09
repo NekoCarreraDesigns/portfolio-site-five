@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./Home.css";
 import Services from "../../components/Services/Services.jsx";
+import Contact from "../../components/Contact/Contact.jsx";
 import About from "../../components/About/About.jsx"
 import { NAV_LINKS, STATS, WIDE_STAT, TICKER_ITEMS } from "./HomeData.js";
 
@@ -111,6 +112,7 @@ export default function Hero() {
     </div>
     <Services/>
     <About/>
+    <Contact/>
     </>
   );
 }
