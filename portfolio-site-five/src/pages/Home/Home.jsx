@@ -3,6 +3,7 @@ import "./Home.css";
 import Services from "../../components/Services/Services.jsx";
 import Contact from "../../components/Contact/Contact.jsx";
 import About from "../../components/About/About.jsx"
+import Footer from "../../components/Footer/Footer.jsx"
 import { NAV_LINKS, STATS, WIDE_STAT, TICKER_ITEMS } from "./HomeData.js";
 
 export default function Hero() {
@@ -12,6 +13,10 @@ export default function Hero() {
     const t = setTimeout(() => setVisible(true), 80);
     return () => clearTimeout(t);
   }, []);
+
+  const scrollTo = (id) => {
+  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+};
 
   return (
     <>
@@ -40,7 +45,9 @@ export default function Hero() {
           ))}
         </ul>
 
-        <button className="nav-cta" type="button">Get Started</button>
+        <button className="nav-cta" type="button" onClick={() => scrollTo("contact")}>
+  Get Started
+</button>
       </nav>
 
       {/* HERO BODY */}
@@ -66,8 +73,12 @@ export default function Hero() {
           </p>
 
           <div className={`hero-actions${visible ? " visible" : ""}`}>
-            <button className="btn-primary" type="button">Explore Solutions</button>
-            <button className="btn-ghost" type="button">View Case Studies</button>
+             <button className="btn-primary" type="button" onClick={() => scrollTo("services")}>
+             Explore Solutions
+            </button>
+            <button className="btn-ghost" type="button" disabled title="Coming soon">
+            Coming Soon!
+           </button>
           </div>
         </div>
 
@@ -113,6 +124,7 @@ export default function Hero() {
     <Services/>
     <About/>
     <Contact/>
+    <Footer/>
     </>
   );
 }
