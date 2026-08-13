@@ -10,18 +10,18 @@ export const CONTACT_SUBTEXT =
 export const CONTACT_BUTTONS = [
   {
     label: "Start a Conversation",
-    href: "mailto:cbsk.llc@gmail.com",
+    href: "mailto:nicholas.maas@maasaisolutions.com",
     primary: true,
   },
   {
     label: "Book a Consultation",
-    href: "mailto:cbsk.llc@gmail.com?subject=Consultation Request",
+    href: "mailto:nicholas.maas@masaisoliutions.com?subject=Consultation Request",
     primary: false,
   },
 ];
 
 export const CONTACT_INFO = [
-  { label: "Email", value: "cbsk.llc@gmail.com" },
+  { label: "Email", value: "nicholas.maas@maasaisolutions.com" },
   { label: "Based In", value: "Denver, Colorado" },
   { label: "Response Time", value: "Within 24 hours" },
 ];
